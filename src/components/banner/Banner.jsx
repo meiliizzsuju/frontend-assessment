@@ -13,7 +13,7 @@ const Banner = ({heading,subheading}) => {
                         <div className='banner__text text-center'>
                             <h1 className='banner__heading text-5xl font-extrabold tracking-wide text-white'>{heading}</h1>
                             {subheading && (
-                                <p className='banner__subheading text-2xl text-white mt-2 md:mt-4'>{subheading}</p>
+                                <p className='banner__subheading text-2xl text-white tracking-wider mt-2 md:mt-4'>{subheading}</p>
                             )}
                         </div>
                     </div>
