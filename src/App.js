@@ -1,14 +1,15 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Banner from './components/banner/Banner';
-import Blogs from './components/blogs/Blogs';
+
+import Exercise1 from './container/Exercise1';
 
 function App() {
   return (
-    <>
-      <Banner heading={'Hello Developer!'} subheading={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}></Banner>
-      <Blogs/>
-    </>
+    <Router>
+      <Routes>
+        <Route path='/*' element={<Exercise1 />} />
+      </Routes>
+    </Router>
   );
 }
 
