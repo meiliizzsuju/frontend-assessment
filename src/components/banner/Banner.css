@@ -1,3 +1,7 @@
 .banner__overlay{
     background-color: rgba(25,25,25,0.35);
 }
+
+.banner__img img{
+    width: 100%;
+}

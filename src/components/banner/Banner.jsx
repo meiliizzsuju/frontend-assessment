@@ -5,7 +5,7 @@ import './Banner.css';
 const Banner = ({heading,subheading}) => {
     return (
         <section className='section banner relative'>
-            <Pictures s_url={'https://via.placeholder.com/600x600'} m_url={'https://via.placeholder.com/1920x650'} alt_text={'banner'}/>
+            <Pictures s_url={'https://via.placeholder.com/600x600'} m_url={'https://via.placeholder.com/1920x650'} alt_text={'banner'} parent_classes='banner__img'/>
 
             {heading && (
                 <>
