@@ -1,0 +1,64 @@
+.accordionTab{
+    @apply space-y-4;
+}
+
+.accordionTab__item {
+    @apply border border-gray-200 rounded-lg;
+}
+
+.accordionTab__button {
+    @apply flex justify-between w-full bg-gray-100 p-4 cursor-pointer transition-all;
+}
+
+.accordionTab__content {
+    @apply overflow-hidden max-h-0 transition-all duration-300;
+    /* transition: max-height 0.3s ease; */
+}
+
+.accordionTab__content--inner{
+    @apply p-4;
+}
+
+.accordionTab__item .accordionTab__button--icon{
+    @apply rotate-0 transition-all duration-300;
+}
+
+.accordionTab__item.active .accordionTab__content {
+    @apply block max-h-52;
+}
+
+.accordionTab__item.active .accordionTab__button{
+    @apply font-bold;
+}
+
+.accordionTab__item.active .accordionTab__button--icon{
+    @apply rotate-180 tracking-wide;
+}
+
+/* converting to tab */
+@media only screen and (min-width:768px) {
+    .accordionTab{
+        @apply relative pb-0;
+    }
+
+    .accordionTab__item{
+        @apply border-b-0 rounded-bl-none rounded-br-none inline-block w-min min-w-44;
+    }
+
+    .accordionTab__content {
+        @apply px-4 absolute top-full left-0 w-full max-h-max opacity-0;
+    }
+
+    .accordionTab__content--inner{
+        @apply border;
+    }
+
+    .accordionTab__button--icon{
+        @apply hidden;
+    }
+
+    .accordionTab__item.active .accordionTab__content {
+        @apply opacity-100;
+    }
+}
+
