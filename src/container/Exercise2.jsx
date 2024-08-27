@@ -5,8 +5,6 @@ import './Exercise2.css'
 const Exercise2 = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
-    console.log("checkdata myData :" + myData)
-
     const handleTabClick = (index) => {
         setActiveIndex(index === activeIndex ? -1 : index);
     };
