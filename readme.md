@@ -1,6 +1,9 @@
 # Ticha | Frontend Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f146159c-f0c4-443a-bacd-dd8214b4f4ea/deploy-status)](https://app.netlify.com/sites/mindarc-assessment/deploys)
+
+Preview link: https://mindarc-assessment.netlify.app/
+
 
 ## Exercise 1
 
@@ -13,7 +16,7 @@ To view the page please following the command below:
 
 
 ## Exercise 2
-please navigate to page `/exercise2` to view the accordion/tab result
+please navigate to page `/exercise2` to view the accordion/tab result or https://mindarc-assessment.netlify.app/exercise2
 
 **Explain why the result of ('b' + 'a' + + 'a' + 'a').toLowerCase() is banana.**
 > Answer: 
