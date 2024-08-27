@@ -13,4 +13,4 @@ To view the page please following the command below:
 
 
 ## Exercise 2
-Read the data.json file and display the data as tabs on desktop and an accordion on mobile.
+please navigate to page `/exercise2` to view the accordion/tab result
