@@ -13,9 +13,9 @@ const Exercise2 = () => {
         <div className="accordionTab p-4">
             {myData.map((item, index) => (
                 <div key={index} className={`accordionTab__item ${activeIndex === index ? 'active' : ''}`}>
-                    <button onClick={() => handleTabClick(index)} class='accordionTab__button' >
+                    <button onClick={() => handleTabClick(index)} className='accordionTab__button' >
                         {item.title}
-                        <svg class='accordionTab__button--icon' width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                        <svg className='accordionTab__button--icon' width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
                             <path d='M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25' stroke='currentColor' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'></path>
                         </svg>
                     </button>
