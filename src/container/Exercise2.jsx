@@ -10,7 +10,7 @@ const Exercise2 = () => {
     };
 
     return (
-        <div className="accordionTab p-4">
+        <div className="accordionTab p-4 mt-20">
             {myData.map((item, index) => (
                 <div key={index} className={`accordionTab__item ${activeIndex === index ? 'active' : ''}`}>
                     <button onClick={() => handleTabClick(index)} className='accordionTab__button' >

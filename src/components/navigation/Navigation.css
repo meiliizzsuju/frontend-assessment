@@ -79,7 +79,8 @@ body{
     margin: 0;
     position: absolute;
     top: 30%;
-    left: 40%;
+    left: 50%;
+    transform: translateX(-53%);
 }
 
 .navBurger__nav ul li{
@@ -92,8 +93,15 @@ body{
 }
   
 .navBurger__nav.show {
-    width: 50%;
+    width: 20rem;
     opacity: 1;
+}
+
+.navBurger__nav > *{
+    display: none;
+}
+.navBurger__nav.show > * {
+    display: block;
 }
 
 .navBurger__hamburger--icon.icon-1.a {
