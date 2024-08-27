@@ -7,8 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Build a responsive page based on the designs.
 
 To view the page please following the command below:
-
-`npm start`
+`npm i` to get all the dependency
+`npm start` to start local preview
 
 
 
